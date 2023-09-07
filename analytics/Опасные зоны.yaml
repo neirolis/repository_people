@@ -1,31 +1,5 @@
 type: analytics
 name: Опасные зоны
-detectors:
-    - uuid: e78da2e1-bc0a-4318-9687-3fa481672b08
-      name: nrls_person-head-detector-torch
-      enabled: true
-      type: items
-      addrs:
-        - 127.0.0.1:65530
-        - 127.0.0.1:65531
-        - 127.0.0.1:65532
-        - 127.0.0.1:65533
-      status:
-        version: "1.4"
-        name: person-head-detector-torch
-        type: detector
-        path: /cvpredict
-        output:
-            types:
-                - person
-                - head
-            colors: []
-            attributes: []
-        imagetypes:
-            - ALL
-        width: 608
-        height: 608
-      cmd: ""
 analytics:
     - uuid: 6ebd2268-7a6a-45a4-be17-3c77a93a0124
       name: Опасные зоны
