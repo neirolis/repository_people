@@ -44,8 +44,6 @@ analytics:
             position:
                 x: 220
                 "y": 100
-            uuid:
-                - e78da2e1-bc0a-4318-9687-3fa481672b08
             active: true
         filter-NoV6D2BTW:
             id: filter-NoV6D2BTW
